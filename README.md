@@ -32,5 +32,5 @@ VS Code Settings
   + Press `Ctrl + S` to save 
   + Press `Ctrl + ~` to call Terminal
   + Code Runner:
-    - use shortcut `Ctrl+Alt+N`
+    - use shortcut `Ctrl + Alt + N`
     - or press F1 and then select/type `Run Code`
