@@ -1,20 +1,43 @@
 {
+
+
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",
             "filenamePattern": "*.ipynb"
         }
     ],
+
+
     "terminal.integrated.inheritEnv": false,
+    
+    
+    // Color, Theme, and font
     "workbench.colorTheme": "Predawn",
     "workbench.iconTheme": "ayu",
+    "editor.fontSize": 14
+
+    
+    // workbench / Default settings with JSON
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
+    "workbench.startupEditor": "gettingStarted"
+
+
+    // Python
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.dataScience.interactiveWindowMode": "preFile",
+
+
+    // formatter
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+
+
+    // Code runner settings
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
@@ -22,14 +45,21 @@
     "code-runner.showExecutionMessage": false,
     "code-runner.ignoreSelection": false,
     "code-runner.saveFileBeforeRun": true,
-    "[plaintext]": {
-        "editor.quickSuggestions": false
-    },
-    "editor.quickSuggestionsDelay": 100,
+    
+
+
+    // Zen Mode
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
+
+
+    // Others
     "editor.minimap.enabled": false,
-    "workbench.startupEditor": "gettingStarted"
+    "[plaintext]": {
+        "editor.quickSuggestions": false
+    },
+    "editor.quickSuggestionsDelay": 100,
+    
 }
