@@ -17,7 +17,7 @@ VS Code Settings
   + [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   + [Vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
-# Operation 
+# Common Used Short Cut 
   + Press `Ctrl + shift + P` to call Command pallete
   + Install ‘code’ command in PATH
     - Press `Ctrl + shift + P` to open Command pallete
@@ -31,6 +31,17 @@ VS Code Settings
   + Press `Ctrl + F` to search
   + Press `Ctrl + S` to save 
   + Press `Ctrl + ~` to call Terminal
+  + Fold/collapse sections of code:
+      - Fold 
+          * `Ctrl` + `Shift` + `[` on Windows and Linux
+      - Unfold
+          * `Ctrl` + `Shift` + `]` on Windows and Linux
+      - Fold All
+          * `Ctrl` + (`K` => `0`) on Windows and Linux
+          * `Command` + (`K` => `0`) on macOS
+      - Unfold All
+          * `Ctrl` + (`K` => `J`) on Windows and Linux 
+          * `Command` + (`K` => `J`) on macOS
   + Code Runner:
     - use shortcut `Ctrl + Alt + N`
     - or press F1 and then select/type `Run Code`
