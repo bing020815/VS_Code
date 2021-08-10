@@ -16,6 +16,8 @@ VS Code Settings
   + [Jekyll Syntax Support](https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax)
   + [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   + [Vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+  + [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+  + [:emojisense:](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
 
 # Common Used Short Cut 
   + Press `Ctrl + shift + P` to call Command pallete
