@@ -33,8 +33,8 @@
 
 
     // formatter
-    "python.formatting.provider": "autopep8",
-    "editor.formatOnSave": true,
+    // "python.formatting.provider": "autopep8",
+    // "editor.formatOnSave": true,
 
 
     // Code runner settings
